@@ -14,9 +14,33 @@ The alignment process is broken into five main steps:
 
 The algorithm is optimized for runtime and accuracy using heuristics, threading and empirical parameter tuning.
 
-## Folder Structure
-<pre> ```text Probabilistic-Genome-Alignment/ ├── README.md ← This file ├── LICENSE ← All rights reserved license ├── report/ │ └── Mélanie Ghaby Final Report.pdf ← Full project report ├── data/ │ ├── predicted_database.txt │ └── predicted_database_probs.txt ├── results/ │ ├── analyse.R │ └── official_dataset.xlsx ├── src/ │ ├── alignment.py │ ├── subarray_identifier.py │ ├── diagonal_dictionary_recomposer.py │ ├── targeted_reprocessing.py │ ├── data_preprocessing.py │ ├── code.py │ └── query_generator_and_tester.py ├── json_data/ │ ├── w_6.json │ ├── w_7.json │ └── ... ``` </pre>
+### Folder Structure
 
+```
+Probabilistic-Genome-Alignment/
+├── README.md                 ← This file
+├── LICENSE                   ← All rights reserved license
+├── report/
+│   └── Mélanie Ghaby Final Report.pdf   ← Full project report
+├── data/
+│   ├── predicted_database.txt
+│   └── predicted_database_probs.txt
+├── results/
+│   ├── analyse.R
+│   └── official_dataset.xlsx
+├── src/
+│   ├── alignment.py
+│   ├── subarray_identifier.py
+│   ├── diagonal_dictionary_recomposer.py
+│   ├── targeted_reprocessing.py
+│   ├── data_preprocessing.py
+│   ├── code.py
+│   └── query_generator_and_tester.py
+├── json_data/
+│   ├── w_6.json
+│   ├── w_7.json
+│   └── ...
+```
 
 ## Requirements
 
