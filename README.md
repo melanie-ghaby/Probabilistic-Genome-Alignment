@@ -16,28 +16,29 @@ The algorithm is optimized for runtime and accuracy using heuristics, threading 
 
 ## Folder Structure
 Probabilistic-Genome-Alignment/
-├── README.md ← This file
-├── LICENSE ← All rights reserved license
+├── README.md                 ← This file
+├── LICENSE                   ← All rights reserved license
 ├── report/
-│ └── Mélanie Ghaby Final Report.pdf ← Full project report
+│   └── Mélanie Ghaby Final Report.pdf   ← Full project report
 ├── data/
-│ ├── predicted_database.txt
-│ └── predicted_database_probs.txt
+│   ├── predicted_database.txt
+│   └── predicted_database_probs.txt
 ├── results/
-│ ├── analyse.R
-│ └── official_dataset.xlsx
+│   ├── analyse.R
+│   └── official_dataset.xlsx
 ├── src/
-│ ├── alignment.py
-│ ├── subarray_identifier.py
-│ ├── diagonal_dictionary_recomposer.py
-│ ├── targeted_reprocessing.py
-│ ├── data_preprocessing.py
-│ ├── code.py
-│ └── query_generator_and_tester.py
+│   ├── alignment.py
+│   ├── subarray_identifier.py
+│   ├── diagonal_dictionary_recomposer.py
+│   ├── targeted_reprocessing.py
+│   ├── data_preprocessing.py
+│   ├── code.py
+│   └── query_generator_and_tester.py
 ├── json_data/
-│ ├── w_6.json
-│ ├── w_7.json
-│ └── ...
+│   ├── w_6.json
+│   ├── w_7.json
+│   └── ...
+
 
 ## Requirements
 
