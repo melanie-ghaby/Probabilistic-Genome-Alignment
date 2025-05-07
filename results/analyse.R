@@ -1,6 +1,4 @@
 #Name: Melanie Ghaby
-#ID: 261050829
-
 
 library(readxl)
 library(dplyr)
